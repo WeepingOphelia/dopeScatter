@@ -1,0 +1,80 @@
+:root {
+    background-color: #050505;
+    color: grey;
+}
+
+a {
+  font-family: monospace;
+  color: darkseagreen;
+  font-size: 16px;
+}
+
+h1 {
+    font-family: monospace;
+    color: grey;
+    text-align: center;
+}
+
+.dot:hover {
+  fill: darkseagreen;
+}
+
+.legend-text {
+  font-family: consolas;
+  fill: grey;
+}
+
+.tooltip {
+
+  position: absolute;
+  right: 100px;
+  bottom: 100px;
+  width: 225px;
+  height: min-content;
+  z-index: 20;
+
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+
+  border-radius: 10px;
+  padding: 10px;
+
+  color: lightgrey;
+  background-color: #202020;
+  opacity: 0;
+
+  font-family: consolas
+  
+}
+
+.tt-year {
+  color: grey;
+}
+
+.tt-time {
+  font-size: 24px;
+  color: cornflowerblue;
+}
+
+.tt-td {
+  font-size: 20px;
+  color: indianred;
+}
+
+#chart-div {
+    position: relative;
+    display: flex;
+    margin: auto;
+    width: min-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#chart {
+    background-color: #111;
+}
+
+
+
